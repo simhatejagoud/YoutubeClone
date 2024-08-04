@@ -1,0 +1,86 @@
+.header{
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:  rgb(214, 214, 214);
+    z-index: 100;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lines-logo{
+    height: 30px;
+    margin-left: 30px;
+}
+.youtubelogo{
+    height: 65px;
+    margin-left: 50px;
+}
+.middle-section{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 40px;
+    max-width: 800px;
+    align-items: center;
+}
+.textbox{
+    height: 45px;
+    width: 100%;
+}
+.textbox::placeholder{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.Searchlogo{
+    height: 48px;
+    width: 80px;
+    border: 2px solid grey;
+    background-color: rgb(237, 237, 237);
+}
+.Searchlogo1{
+    height: 30px;
+    width: 30px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.voice1{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+}
+.create{
+    height: 35px;
+    margin-right: 35px;
+}
+.notification{
+    height: 35px;
+    margin-right: 35px;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 35px;
+}
